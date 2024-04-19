@@ -12,10 +12,7 @@ export default function OrderContents( {order,removeItem} : OrderContentsProps) 
         <h2 className=' font-black  text-4xl text-center'> Consumo</h2>
 
         <div className="space-y-3 mt-10">
-            {order.length===0 ? 
-                <p className=" text-center"> La Orden esta vacía</p>
-            :  (
-                order.map(item=>(
+            { order.map(item=>(
                     <div 
                         key={item.id}
                         className=" flex  justify-between border-t border-gray-200  py-5  peer-last-of-type:end items-center"
@@ -36,7 +33,7 @@ export default function OrderContents( {order,removeItem} : OrderContentsProps) 
                 ))  //El operador ternario evalua si hay elemento o no, al ver que hay los va agregando
 
         
-            )
+            
             }
 
         </div>
