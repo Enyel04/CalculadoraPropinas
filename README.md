@@ -1,3 +1,6 @@
+#Aprendido
+Al uso de Tailwind, useEffect, useMemo, heredar en types para llamar iformacion a componentes y Colocar los datos de TypeScript de como serian llamados
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
